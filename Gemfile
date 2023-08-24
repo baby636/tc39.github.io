@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
-gem 'jemoji'
+gem 'github-pages', '>= 210', group: :jekyll_plugins
+gem 'jemoji', '>= 0.13.0'
 gem 'jekyll-octicons'
 group :jekyll_plugins do
      gem "jekyll-polyglot"
