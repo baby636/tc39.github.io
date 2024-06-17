@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
+gem 'github-pages', '>= 210', group: :jekyll_plugins
 gem 'jemoji'
 gem 'jekyll-octicons'
 group :jekyll_plugins do
